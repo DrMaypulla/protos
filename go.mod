@@ -1,4 +1,4 @@
-module diplomauth
+module github.com/DrMaypulla/protos
 
 go 1.24.2
 
