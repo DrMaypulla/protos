@@ -1,7 +1,8 @@
 syntax = "proto3";
 
 package auth;
-option go_package = "diplomauth/gen/go/auth;auth";
+
+option go_package = "github.com/DrMaypulla/protos/gen/go;auth";
 
 service Auth {
     rpc Register(RegisterRequest) returns (RegisterResponse);
